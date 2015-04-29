@@ -1,0 +1,60 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+
+
+@font-face {
+  font-family: 'Century';
+  src: url('../fonts/CenturyStd-Book.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/CenturyStd-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/CenturyStd-Book.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/CenturyStd-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/CenturyStd-Book.svg#ec832b29e07b4aee757097f0586401b9') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+
+
+body {
+    font-family: Century;
+    color:#19322F;
+    background-color: #f1eef1;
+}
+h1, h2 {
+    text-align: center;
+    margin:1em 0;
+}
+*:focus {
+    outline: 0;
+}
+
+
+.carousel-control.left,
+.carousel-control.right {
+  background:none;
+}
+.form-inline .form-control {
+  width:300px;
+}
+.form-control {
+  border-radius: 0;
+  border-width:0px;
+  border:none;
+  
+  background: #E6E1E5;
+  &:focus {
+    border: none;
+    box-shadow:none;
+  }
+}
+.btn-default {
+  border-radius: 0;
+  border: none;
+  color: #E6E1E5; 
+  background-color:#19322f;
+}
