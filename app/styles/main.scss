@@ -28,6 +28,9 @@ body {
 h1, h2 {
     text-align: center;
     margin:1em 0;
+    img {
+      max-width:100%;
+    }
 }
 *:focus {
     outline: 0;
